@@ -1,0 +1,12 @@
+eks_cluster_name     = "weather-cluster"
+aws_access_key       = "" # Remplazar con AWS Access Key
+aws_secret_key       = "" # Remplazar con AWS Secret Key
+aws_region           = "" # Remplazar con AWS Region
+app_name             = "weather"
+env                  = "dev"
+cidr_block           = "10.0.0.0/23"
+public_subnets       = ["10.0.0.0/25", "10.0.0.128/26", "10.0.0.192/26"]
+private_subnets      = ["10.0.1.0/26", "10.0.1.64/26", "10.0.1.128/26"]
+availability_zones   = ["a", "b", "c"]
+eks_cluster_iam_role = ""  # Remplazar con ARN Cluster IAM Role
+node_role_arn        = ""  # Remplazar con ARN Node Group
